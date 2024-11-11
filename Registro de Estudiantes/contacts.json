@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "juan carlos betancur restrepo",
+        "edad": "25",
+        "correo": "David2340@gmail.com",
+        "curso": "matematicas",
+        "genero": "masculino",
+        "areas_interes": [
+            "Tecnolog\u00eda"
+        ]
+    },
+    {
+        "nombre": "Liliana Jaramillo ",
+        "edad": "19",
+        "correo": "LIliamjar23@gmail.com",
+        "curso": "Ingles",
+        "genero": "femenino",
+        "areas_interes": [
+            "Ciencias Sociales",
+            "Ciencias Naturales"
+        ]
+    }
+]

@@ -1,0 +1,117 @@
+//* Estilo general para la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Contenedor principal de la página */
+h1 {
+    text-align: center;
+    color: #2d3e50;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #2d3e50;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Formulario */
+form {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+/* Etiquetas y campos del formulario */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 0;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    background-color: #1f618d;
+}
+
+/* Diseño de la lista de estudiantes */
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilo de los estudiantes */
+div p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Estilo para los mensajes de éxito o error */
+.mensaje {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.mensaje.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.mensaje.error {
+    background-color: #dc3545;
+    color: white;
+}
